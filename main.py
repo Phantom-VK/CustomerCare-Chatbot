@@ -2,6 +2,8 @@ import os
 import chromadb
 from sentence_transformers import SentenceTransformer
 
+from utils.jsonloader import load_json
+
 # Set custom directory for model downloads
 os.environ["SENTENCE_TRANSFORMERS_HOME"] = "./models"
 
@@ -9,24 +11,22 @@ os.environ["SENTENCE_TRANSFORMERS_HOME"] = "./models"
 model = SentenceTransformer("all-MiniLM-L6-v2")
 
 # text = "What is UBI Vyom app?"
+# text2 = "UBI Vyom app in android?"
 # embedding = model.encode(text)
-# # print(embedding.shape)  # (384,)
-
-#Start CHROMA DB
+# embedding2 = model.encode(text2)
+# print(embedding.shape)  # (384,)
+# print(embedding2.shape)
+#
+# #Start CHROMA DB
 client = chromadb.PersistentClient(path="./db")
 collection = client.get_or_create_collection("faq")
 
-questions = [
-    "What is UBI Vyom?",
-    "How to reset password?",
-    "How to contact customer care?"
-]
-answers = [
-    "UBI Vyom is the official app of Union Bank of India.",
-    "Go to settings and select reset password.",
-    "Call 1800-1234-567 or email customercare@ubi.com."
-]
 
-for q, a in zip(questions, answers):
-    embedding = model.encode(q).tolist()
-    collection.add(documents=[a], embeddings=[embedding], ids=[q])
+questions = load_json("./dataset/questions.json")
+answers = load_json("./dataset/answers.json")
+
+# print(len(questions), len(answers))
+
+for i, question in enumerate(questions):
+    embedding = model.encode(question).tolist()
+    collection.add(documents=[answers[i]], embeddings=[embedding], ids=[str(i)])
