@@ -1,8 +1,18 @@
 import sys
 import logging
 from model import VyomChatbot
+from flask import Flask, request, jsonify
 from utils.jsonloader import load_json
 
+app = Flask(__name__)
+chatbot = VyomChatbot()
+
+@app.route('/ask', methods=['POST'])
+def ask():
+    data = request.json
+    query = data.get('query')
+    response = chatbot.ask_question(query)
+    return jsonify({"response": response})
 
 def main():
     """
@@ -17,13 +27,11 @@ def main():
         logger = logging.getLogger(__name__)
 
         # Load dataset
-        questions = load_json("./dataset/questions.json")
-        answers = load_json("./dataset/answers.json")
+        dataset = load_json("./dataset/new_dataset.json")
 
         # Initialize Chatbot
         logger.info("Training Chatbot...")
-        chatbot = VyomChatbot()
-        chatbot.store_data(questions, answers)
+        chatbot.store_data(dataset)
         logger.info("✅ Chatbot is Ready!")
 
         # Interactive Chat Loop
@@ -48,6 +56,6 @@ def main():
         logging.error(f"Critical error: {e}")
         sys.exit(1)
 
-
 if __name__ == "__main__":
     main()
+    # app.run(host='0.0.0.0', port=5000)

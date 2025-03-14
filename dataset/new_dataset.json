@@ -1,0 +1,458 @@
+[
+    {
+        "intent": "greeting",
+        "questions": [
+            "Hi",
+            "Hello",
+            "Hey",
+            "What's up?",
+            "Good morning",
+            "Good afternoon",
+            "Good evening",
+            "Greetings",
+            "Hi there",
+            "Hello there"
+        ],
+        "answer": "Hello! How can I help you with Union Bank services today?"
+    },
+    {
+        "intent": "how_are_you",
+        "questions": [
+            "How are you?",
+            "How are you doing?",
+            "How's it going?",
+            "How have you been?",
+            "How's your day?",
+            "Are you doing okay?"
+        ],
+        "answer": "I'm just a chatbot, but I'm doing great! How can I assist you with your banking needs today?"
+    },
+    {
+        "intent": "name_inquiry",
+        "questions": [
+            "What is your name?",
+            "Who are you?",
+            "What should I call you?",
+            "Do you have a name?",
+            "What's your name?",
+            "What are you called?"
+        ],
+        "answer": "I am UBI Customer Care Chatbot, designed to help you with Union Bank of India services."
+    },
+    {
+        "intent": "thank_you",
+        "questions": [
+            "Thank you",
+            "Thanks",
+            "Thanks a lot",
+            "Thank you so much",
+            "I appreciate it",
+            "Thanks for your help",
+            "That was helpful"
+        ],
+        "answer": "You're welcome! Let me know if you need anything else regarding Union Bank services."
+    },
+    {
+        "intent": "goodbye",
+        "questions": [
+            "Bye",
+            "Goodbye",
+            "See you later",
+            "Take care",
+            "I'm done",
+            "That's all for now",
+            "Catch you later",
+            "I'll talk to you later"
+        ],
+        "answer": "Goodbye! Have a great day. Feel free to return if you have more questions about Union Bank services."
+    },
+    {
+        "intent": "time_inquiry",
+        "questions": [
+            "What's the time?",
+            "What time is it?",
+            "Do you know the current time?",
+            "Can you tell me the time?",
+            "What's the current time?"
+        ],
+        "answer": "I'm not able to provide the current time, but I'm here to answer your questions about Union Bank of India services!"
+    },
+    {
+        "intent": "capabilities",
+        "questions": [
+            "What can you do?",
+            "How can you help me?",
+            "What services do you offer?",
+            "What are your capabilities?",
+            "What can you assist with?",
+            "How can you be useful to me?",
+            "What kind of help do you provide?"
+        ],
+        "answer": "I can answer your questions about Union Bank services, including account information, mobile banking, ATM services, loan details, password resets, and more. I'm here to provide information and guide you through banking procedures."
+    },
+    {
+        "intent": "ubi_vyom_app",
+        "questions": [
+            "What is UBI Vyom App?",
+            "Tell me about UBI Vyom App",
+            "How does the UBI Vyom App work?",
+            "What features does UBI Vyom App have?",
+            "Is there a mobile app for Union Bank?",
+            "How can I download UBI Vyom App?",
+            "What can I do with UBI Vyom App?"
+        ],
+        "answer": "UBI Vyom App is the official mobile application of Union Bank of India. It offers services like account management, fund transfers, bill payments, mobile recharge, and more. You can download it from Google Play Store or Apple App Store."
+    },
+    {
+        "intent": "reset_password",
+        "questions": [
+            "How to reset password?",
+            "I forgot my password",
+            "Need to change my password",
+            "Can't remember my login password",
+            "How do I create a new password?",
+            "Password recovery process",
+            "My password isn't working",
+            "How to reset UBI account password?"
+        ],
+        "answer": "To reset your password for Union Bank online services, go to the login page, click on 'Forgot Password', enter your User ID and registered mobile number. You'll receive an OTP to validate your identity. After verification, you can set a new password."
+    },
+    {
+        "intent": "customer_care_numbers",
+        "questions": [
+            "What are the customer care numbers?",
+            "How can I contact Union Bank?",
+            "Give me helpline numbers",
+            "Customer support contact",
+            "UBI customer service number",
+            "How to call UBI customer care?",
+            "What's the toll-free number for Union Bank?"
+        ],
+        "answer": "You can contact Union Bank of India customer care at toll-free number 1800-1234-567. For email support, write to customercare@ubi.com. Our customer care is available 24/7 for your assistance."
+    },
+    {
+        "intent": "open_savings_account",
+        "questions": [
+            "What is a savings account?",
+            "How do I open a savings account?",
+            "Can you tell me about savings accounts?",
+            "What are the benefits of a savings account?",
+            "What documents do I need to open a savings account?",
+            "Is there a minimum balance for savings accounts?",
+            "Can I open a savings account online?",
+            "What interest rate do you offer on savings accounts?"
+        ],
+        "answer": "A savings account is a basic bank account that allows you to deposit money, earn interest, and withdraw funds when needed. To open a savings account with Union Bank, visit your nearest branch with ID proof (Aadhaar/PAN), address proof, and passport-sized photographs. You can also start the process online through our website or UBI Vyom App."
+    },
+    {
+        "intent": "definition_of_saving",
+        "questions": [
+            "What is the definition of saving?",
+            "Define saving",
+            "What does saving mean?",
+            "What is saving in financial terms?",
+            "Explain the concept of saving",
+            "How is saving defined in banking?"
+        ],
+        "answer": "Saving is the surplus money that remains when your income exceeds your expenses. It represents the portion of income not spent on current consumption that you set aside for future use or emergencies."
+    },
+    {
+        "intent": "why_save_money",
+        "questions": [
+            "Why should we save money?",
+            "What are the benefits of saving money?",
+            "Why is saving important?",
+            "What's the purpose of saving money?",
+            "How does saving help financially?",
+            "Give me reasons to save money",
+            "Why should I keep money in savings?"
+        ],
+        "answer": "We should save money regularly to meet various expenses, emergencies, and life events, such as education, marriage, house purchase, birth, illness, accident, death, natural calamity, and old age. During emergencies, savings can be a great help and provide financial security and peace of mind."
+    },
+    {
+        "intent": "where_to_save_money",
+        "questions": [
+            "Where can we save money?",
+            "Best places to save money",
+            "Where should I keep my savings?",
+            "What are good options for saving money?",
+            "Is keeping money at home a good idea?",
+            "Alternatives to keeping cash at home",
+            "Safe places for my savings"
+        ],
+        "answer": "While you can keep money at home in a piggy bank (Gulak), it may not be safe and might be tempting to use. Also, money saved at home doesn't grow. It's better to save money in a bank where it's secure and earns interest. Union Bank offers various savings options like savings accounts, fixed deposits, and recurring deposits."
+    },
+    {
+        "intent": "why_save_in_bank",
+        "questions": [
+            "Why should we save money in a bank?",
+            "What are the advantages of bank savings?",
+            "Why is a bank better than keeping cash?",
+            "Benefits of banking vs home storage",
+            "Is it safe to keep money in banks?",
+            "Why choose banks for savings?",
+            "How is saving in a bank beneficial?"
+        ],
+        "answer": "Money saved in a bank is safe, secure, and reliable. Banks offer protection through deposit insurance, your money earns interest, and you can access various financial services. Union Bank provides digital banking for convenient access, government-backed security, and professional management of your funds."
+    },
+    {
+        "intent": "advantages_of_bank_account",
+        "questions": [
+            "What are the advantages of having a bank account?",
+            "Benefits of bank accounts",
+            "Why should I open a bank account?",
+            "How does a bank account help me?",
+            "What can I do with a bank account?",
+            "Reasons to have a bank account",
+            "How is a bank account useful?"
+        ],
+        "answer": "Having a bank account allows you to open savings, recurring, or fixed deposit accounts. Banks offer loans and many other useful services. You can have wages or salaries directly credited to your account. Social benefits like MGNREGA wages and pensions can be directly deposited through EBT. You can deposit or withdraw money at your convenience. Banks pay interest on deposits and provide an identity recognized by government agencies."
+    },
+    {
+        "intent": "definition_of_interest",
+        "questions": [
+            "What is the definition of interest?",
+            "What does interest mean in banking?",
+            "How is interest calculated?",
+            "What is bank interest?",
+            "Explain interest rates",
+            "What's the difference between bank interest and moneylender interest?",
+            "How does interest work?"
+        ],
+        "answer": "Interest is the amount earned on deposits kept with the bank or the amount paid when money is borrowed from the bank. Union Bank offers competitive interest rates on deposits. The interest charged by banks is much less than the interest charged by moneylenders (Sahukar), making bank loans more affordable and transparent."
+    },
+    {
+        "intent": "characteristics_of_bsbda",
+        "questions": [
+            "What are the characteristics of a BSBDA?",
+            "Tell me about Basic Savings Bank Deposit Account",
+            "What is BSBDA?",
+            "How does a Basic Savings Bank Account work?",
+            "Features of BSBDA",
+            "Advantages of Basic Savings Bank Deposit Account",
+            "BSBDA eligibility and requirements"
+        ],
+        "answer": "A Basic Savings Bank Deposit Account (BSBDA) can be opened with simplified KYC norms. Banks cannot charge fees for depositing money any number of times, and they do not charge for four withdrawals in a month. The customer is provided with a Passbook and an ATM card without any fees. The account can be used for everyday transactions such as deposits, withdrawals, remittances, and direct credit of social benefits."
+    },
+    {
+        "intent": "overdraft_explanation",
+        "questions": [
+            "What is an overdraft, and how is it different from other loans?",
+            "How does bank overdraft work?",
+            "Explain overdraft facility",
+            "Difference between overdraft and regular loan",
+            "Can I get an overdraft on my savings account?",
+            "What is the interest on overdraft?",
+            "Benefits of having an overdraft facility"
+        ],
+        "answer": "An overdraft is a small loan built into a savings bank account to cover emergent miscellaneous needs. The account holder can withdraw an amount up to the overdraft limit without going through separate documentation for availing of a small amount. The customer is required to pay interest on the overdraft amount as it is a loan given by the bank. Other loans like KCC and GCC are provided by the banks for the specific purpose of income-generating activities."
+    },
+    {
+        "intent": "nomination_explanation",
+        "questions": [
+            "What is a nomination?",
+            "How does bank account nomination work?",
+            "Why should I add a nominee to my account?",
+            "How to add nominee in Union Bank account?",
+            "Can I change my nominee?",
+            "Is nomination mandatory?",
+            "What happens if I don't add a nominee?"
+        ],
+        "answer": "Nomination is a facility that allows a deposit holder to designate an individual who can claim the amount in the bank account in case of the account holder's death. It is advisable to nominate someone in a bank account to make it easier for the nominated person to claim the amount without lengthy legal procedures. You can add a nominee during account opening or later by submitting a nomination form."
+    },
+    {
+        "intent": "kyc_explanation",
+        "questions": [
+            "What is Know Your Customer (KYC)?",
+            "Why is KYC required?",
+            "What documents are needed for KYC?",
+            "How to complete KYC verification?",
+            "Is Aadhaar enough for KYC?",
+            "What is relaxed KYC procedure?",
+            "How often do I need to update KYC?"
+        ],
+        "answer": "Banks are required to know the customer's particulars before opening accounts as per KYC regulations. Necessary KYC documents, such as a photograph, proof of identity, and proof of residence, must be submitted to the bank along with the account opening form. Accounts can also be opened based on the Aadhaar Card. Those who do not have the required documents may open an account under the relaxed KYC procedure based on the MGNREGA job card or self-certification. Accounts opened under the relaxed procedure will be treated as small accounts and subject to certain limitations."
+    },
+    {
+        "intent": "debt_explanation",
+        "questions": [
+            "What is debt?",
+            "Define financial debt",
+            "How is debt created?",
+            "What causes debt?",
+            "Types of debt",
+            "Good debt vs bad debt",
+            "How does debt affect credit score?"
+        ],
+        "answer": "Debt is borrowing raised to fill the gap between resources and expenses. When expenses exceed income, and there are no savings, borrowing is used to cover the shortage, creating debt. Understanding debt is important for financial planning and management. Union Bank offers various loan products designed to meet specific needs with favorable terms."
+    },
+    {
+        "intent": "debt_management_plan",
+        "questions": [
+            "What is a Debt Management Plan?",
+            "How to manage debts effectively?",
+            "Help with debt repayment",
+            "How can I reduce my debt?",
+            "Strategies for debt management",
+            "Can the bank help with debt problems?",
+            "How to create a debt repayment plan?"
+        ],
+        "answer": "A Debt Management Plan is a structured approach to assist those in financial distress by creating a suitable repayment plan. A counsellor would assist you in understanding financial budgeting and finding ways to reduce or lessen the burden of debt. Union Bank offers financial counseling services to help customers manage and resolve debt issues effectively."
+    },
+    {
+        "intent": "money_management",
+        "questions": [
+            "How can the money be managed?",
+            "Tips for financial management",
+            "How to track expenses?",
+            "Financial planning basics",
+            "How to create a personal budget?",
+            "Ways to manage personal finances",
+            "Tools for money management"
+        ],
+        "answer": "Money can be managed efficiently by doing financial planning. The first step in financial planning is to maintain a Financial Diary to keep track of income and expenses for a given period, such as a week or a month. This helps identify spending patterns and areas where you can save. Union Bank offers digital tools through UBI Vyom App to help you track expenses and manage your finances effectively."
+    },
+    {
+        "intent": "slbc_explanation",
+        "questions": [
+            "What is SLBC?",
+            "Role of State Level Bankers Committee",
+            "How does SLBC function?",
+            "Purpose of SLBC meetings",
+            "Who attends SLBC meetings?",
+            "How often does SLBC meet?",
+            "SLBC's role in banking development"
+        ],
+        "answer": "SLBC stands for State Level Bankers Committee, which is an inter-institutional forum at the state level that ensures coordination between the government and banks on matters related to banking development. A designated bank serves as the Convener Bank for a particular state or union territory. Union Bank is the SLBC convenor for several states and plays an active role in implementing banking policies at the state level."
+    },
+    {
+        "intent": "atm_explanation",
+        "questions": [
+            "What is an ATM, and what services does it offer?",
+            "Functions of ATM machines",
+            "What can I do at an ATM?",
+            "ATM services explained",
+            "Can I deposit cash at ATMs?",
+            "Different types of ATM transactions",
+            "Modern ATM features"
+        ],
+        "answer": "An ATM (Automated Teller Machine) is a self-service banking terminal that allows you to withdraw cash, check your account balance, transfer funds between accounts, deposit cash/cheques, change PIN, request account statements, and pay utility bills. Union Bank's ATMs are available 24/7 for convenient banking without visiting a branch."
+    },
+    {
+        "intent": "union_bank_atm_locations",
+        "questions": [
+            "Where can I find Union Bank ATMs?",
+            "Nearest Union Bank ATM",
+            "ATM locator for Union Bank",
+            "How many ATMs does Union Bank have?",
+            "Union Bank ATM network",
+            "ATM availability in my area",
+            "How to locate a Union Bank ATM?"
+        ],
+        "answer": "Union Bank ATMs are strategically located across India in major cities, towns, and rural areas. You can find the nearest ATM using our website or mobile app's ATM locator feature. Simply enter your location or use GPS to discover nearby ATMs along with their addresses and directions."
+    },
+    {
+        "intent": "withdraw_cash_any_atm",
+        "questions": [
+            "Can I withdraw cash from any Union Bank ATM?",
+            "Do all ATMs work with my card?",
+            "Using my card at different ATMs",
+            "Union Bank card compatibility",
+            "Can I use other bank ATMs?",
+            "ATM network access",
+            "Withdrawing from non-Union Bank ATMs"
+        ],
+        "answer": "Yes, you can withdraw cash from any Union Bank ATM using your debit card, subject to sufficient funds in your account. You can also use other bank ATMs, though there may be transaction limits and charges after exceeding the free monthly transaction limit as per RBI guidelines."
+    },
+    {
+        "intent": "atm_charges",
+        "questions": [
+            "Are there any charges for using Union Bank ATMs?",
+            "ATM transaction fees",
+            "Cost of using other bank ATMs",
+            "Free ATM transactions per month",
+            "Charges for balance inquiry at ATM",
+            "Extra ATM usage fees",
+            "How to avoid ATM charges?"
+        ],
+        "answer": "Union Bank offers a certain number of free transactions per month at Union Bank ATMs (unlimited) and other bank ATMs (3-5 transactions depending on location). Additional transactions may be subject to nominal charges as per RBI guidelines. There are no charges for balance inquiries at Union Bank ATMs."
+    },
+    {
+        "intent": "atm_withdrawal_limit",
+        "questions": [
+            "What is the maximum amount I can withdraw from an ATM in a single transaction?",
+            "Daily ATM withdrawal limit",
+            "How much cash can I take out per day?",
+            "ATM transaction limits",
+            "Can I increase my ATM withdrawal limit?",
+            "Maximum ATM withdrawal amount",
+            "ATM cash limit per transaction"
+        ],
+        "answer": "The maximum withdrawal limit per transaction varies based on your account type and the ATM's limits. Generally, Union Bank allows withdrawals up to Rs. 10,000-25,000 per transaction with a daily limit of Rs. 40,000-50,000. Premium accounts may have higher limits. You can request a limit increase through your branch or customer care."
+    },
+    {
+        "intent": "atm_fund_transfer",
+        "questions": [
+            "Can I transfer funds to other Union Bank accounts using ATMs?",
+            "How to transfer money through ATM?",
+            "ATM fund transfer process",
+            "Is NEFT available at ATMs?",
+            "Can I send money to other banks via ATM?",
+            "ATM transfer limits",
+            "Transferring to third-party accounts at ATM"
+        ],
+        "answer": "Yes, you can transfer funds to other Union Bank accounts or third-party accounts using the NEFT/IMPS option available at ATMs. Simply select 'Fund Transfer' from the menu, enter the beneficiary account details, amount, and confirm with your PIN. Transfer limits may apply based on your account type and security settings."
+    },
+    {
+        "intent": "check_balance_atm",
+        "questions": [
+            "How can I check my account balance at an ATM?",
+            "Balance inquiry at ATM",
+            "Checking available funds at ATM",
+            "Does balance check count as a transaction?",
+            "How to view account balance without withdrawal?",
+            "ATM balance check process",
+            "Is there a fee for checking balance?"
+        ],
+        "answer": "You can check your account balance by inserting your card into any Union Bank ATM, selecting the 'Balance Inquiry' option from the menu, and entering your debit card PIN. The balance will be displayed on screen and you can choose to print a receipt. Balance inquiries at Union Bank ATMs are free and unlimited."
+    },
+    {
+        "intent": "change_atm_pin",
+        "questions": [
+            "Can I change my ATM PIN at Union Bank ATMs?",
+            "How to reset debit card PIN?",
+            "ATM PIN change process",
+            "Forgot PIN, how to change?",
+            "Creating a new ATM PIN",
+            "Is it safe to change PIN at ATM?",
+            "PIN change without visiting branch"
+        ],
+        "answer": "Yes, you can change your ATM PIN for enhanced security by selecting the 'PIN Change' option from the ATM menu. Insert your card, enter your current PIN, then input and confirm your new 4-digit PIN when prompted. For security reasons, avoid using easily guessable numbers like birthdays. The new PIN will be active immediately."
+    },
+    {
+        "intent": "lost_stolen_atm_card",
+        "questions": [
+            "What should I do if my ATM card is lost or stolen?",
+            "How to block lost debit card?",
+            "Reporting stolen ATM card",
+            "Emergency card blocking",
+            "Debit card misuse protection",
+            "Card replacement procedure",
+            "Lost card helpline"
+        ],
+        "answer": "In case of a lost or stolen card, immediately contact our 24/7 customer support at 1800-1234-567 or block your card through internet banking/mobile app to prevent unauthorized use. After blocking, you can request a replacement card through your branch or online banking. As a precaution, monitor your account for any suspicious transactions."
+    },
+    {
+        "intent": "cardless_cash_withdrawal",
+        "questions": [
+            "What are cardless cash withdrawals, and how do they work?",
+            "How to withdraw without card?",
+            "Emergency cash without debit card",
+            "Generate OTP for ATM withdrawal",
+            "Cardless cash withdrawal limits",
+            "Cardless ATM transaction process",
+            "Is cardless withdrawal safe?"
+        ],
+        "answer": "Cardless cash withdrawals allow you to withdraw money from a Union Bank ATM without using a physical debit card. You can generate a one-time code through our mobile app by selecting 'Cardless Cash' option, specifying the amount, and receiving an OTP. At the ATM, select 'Cardless Withdrawal', enter your registered mobile number, the OTP, and the amount to receive cash."
+    }
+]
