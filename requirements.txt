@@ -1,0 +1,5 @@
+torch
+Chromadb
+sentence-transformers
+transformers
+Flask
